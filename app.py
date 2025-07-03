@@ -8,3 +8,6 @@ def home():
 
 if __name__ == '__main__':
     app.run(debug=True)
+    
+from whisper_handler import transcribe_bangla
+print(transcribe_bangla("Audio.mp3"))
